@@ -1,0 +1,17 @@
+{
+	"name": "algo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"increment": "tsc && node ./dist/custom-number-type-increment.js",
+		"fizzbuzz": "tsc && node ./dist/fizzbuzz.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^18.0.0",
+		"typescript": "^4.7.4"
+	}
+}
